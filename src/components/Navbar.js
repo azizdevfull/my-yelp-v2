@@ -10,7 +10,7 @@ export default function YelpNavbar({signOut}){
             <Navbar.Toggle />
             <Navbar.Collapse className="justify-content-end">
                 <Navbar.Text>
-                <Button onClick={signOut}>Sign Out</Button>
+                <Button onClick={signOut}>Log Out</Button>
                 </Navbar.Text>
             </Navbar.Collapse>
             </Container>
